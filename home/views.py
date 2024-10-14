@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 def index(request) :
-    return render(request,'home.html')
+    return render(request,'index.html')
 
 def Teampage(request):
     return render(request,'teampage.html')
